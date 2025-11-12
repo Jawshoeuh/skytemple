@@ -227,7 +227,7 @@ jobs:
           dist.py "$PATH_MACOS_ARM" "skytemple/$GITHUB_REF_NAME/skytemple-$GITHUB_REF_NAME-mac-install-arm64.dmg"
   package-linux-flatpak-nightly:
     name: Linux Flatpak Nightly
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     container:
       image: bilelmoussaoui/flatpak-github-actions:gnome-47
       options: --privileged
