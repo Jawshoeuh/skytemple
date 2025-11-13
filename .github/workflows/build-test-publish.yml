@@ -227,9 +227,9 @@ jobs:
           dist.py "$PATH_MACOS_ARM" "skytemple/$GITHUB_REF_NAME/skytemple-$GITHUB_REF_NAME-mac-install-arm64.dmg"
   package-linux-flatpak-nightly:
     name: Linux Flatpak Nightly
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     container:
-      image: bilelmoussaoui/flatpak-github-actions:gnome-47
+      image: ghcr.io/flathub-infra/flatpak-github-actions:gnome-48
       options: --privileged
     steps:
       # Most of these are needed because of a bug in pip download, which causes pip download to attempt to build all build dependencies..
