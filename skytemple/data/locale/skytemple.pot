@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skytemple\n"
 "Report-Msgid-Bugs-To: https://translate.skytemple.org\n"
-"POT-Creation-Date: 2025-11-09 15:52+0000\n"
+"POT-Creation-Date: 2025-11-15 04:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9717,9 +9717,8 @@ msgid ""
 msgstr ""
 
 #: skytemple/skytemple/data/widget/patch/item_effects.ui:154
-#: skytemple/skytemple/data/widget/patch/move_effects.ui:163
 msgid ""
-"Edits the effects used by each move.\n"
+"Edits the effects used by each item.\n"
 "This does not list effects added by C or Rust code."
 msgstr ""
 
@@ -9806,6 +9805,12 @@ msgid ""
 "To view and edit move effects, please apply the \"ExtractMoveCode\" \n"
 "ASM patch from the \"Patches\" > \"ASM\" menu.\n"
 "If you already have applied it, apply it again to be sure to use the last version. "
+msgstr ""
+
+#: skytemple/skytemple/data/widget/patch/move_effects.ui:163
+msgid ""
+"Edits the effects used by each move.\n"
+"This does not list effects added by C or Rust code."
 msgstr ""
 
 #: skytemple/skytemple/data/widget/patch/move_effects.ui:302
